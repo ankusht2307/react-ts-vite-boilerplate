@@ -16,6 +16,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
+  "ignorePatterns": ["dist"],
   "rules": {
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
