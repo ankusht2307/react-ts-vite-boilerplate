@@ -1,5 +1,5 @@
 function App() {
-  return <div className="App">Sacredcode Editor</div>;
+  return <h1>Sacredcode Editor</h1>;
 }
 
 export default App;
