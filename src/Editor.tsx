@@ -8,7 +8,6 @@ const Editor = (): JSX.Element => {
         border: "1px solid #000",
         width: "50vw",
         height: "50vh",
-        marginTop: "4rem",
       }}
     >
       <Toolbar />

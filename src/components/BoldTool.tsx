@@ -1,6 +1,13 @@
+import BoldIcon from "../assets/type-bold.svg";
+
 const BoldTool = (): JSX.Element => {
+  const clickHandler = (): void => {
+    console.log("clicked");
+  };
   return (
-    <div
+    <button
+      type="button"
+      onClick={clickHandler}
       style={{
         border: "1px solid #000",
         cursor: "pointer",
@@ -8,8 +15,8 @@ const BoldTool = (): JSX.Element => {
         height: "inherit",
       }}
     >
-      Bold
-    </div>
+      <img src={BoldIcon} alt="ss" />
+    </button>
   );
 };
 
