@@ -1,5 +1,5 @@
 const Toolbar = (): JSX.Element => {
-  return <h2>Toolbar</h2>;
+  return <h2>Toolbar menu</h2>;
 };
 
 export default Toolbar;
