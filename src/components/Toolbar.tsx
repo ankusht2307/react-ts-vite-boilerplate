@@ -1,5 +1,11 @@
+import BoldTool from "./BoldTool";
+
 const Toolbar = (): JSX.Element => {
-  return <h2>Toolbar menu</h2>;
+  return (
+    <div style={{ border: "1px solid #000", height: "2rem" }}>
+      <BoldTool />
+    </div>
+  );
 };
 
 export default Toolbar;

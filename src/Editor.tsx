@@ -1,15 +1,19 @@
-import BoldTool from "./components/BoldTool";
-import ItalicTool from "./components/ItalicTool";
+import TextArea from "./components/TextArea";
 import Toolbar from "./components/Toolbar";
 
-const Editor = () => {
+const Editor = (): JSX.Element => {
   return (
-    <>
-      <h2>Editor</h2>
-      <BoldTool />
-      <ItalicTool />
+    <div
+      style={{
+        border: "1px solid #000",
+        width: "50vw",
+        height: "50vh",
+        marginTop: "4rem",
+      }}
+    >
       <Toolbar />
-    </>
+      <TextArea />
+    </div>
   );
 };
 
