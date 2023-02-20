@@ -1,9 +1,18 @@
+import { useContext, useState } from "react";
+import { EditorContext } from "../App";
 import BoldIcon from "../assets/type-bold.svg";
 
 const BoldTool = (): JSX.Element => {
+  const [bold, setBold] = useState(false);
+
+  const context = useContext(EditorContext);
+
   const clickHandler = (): void => {
-    console.log("clicked");
+    setBold((isBold) => !isBold);
+    console.log("bold :", bold);
+    console.log(context);
   };
+
   return (
     <button
       type="button"
@@ -15,7 +24,7 @@ const BoldTool = (): JSX.Element => {
         height: "inherit",
       }}
     >
-      <img src={BoldIcon} alt="ss" />
+      <img src={BoldIcon} alt="bold" />
     </button>
   );
 };
