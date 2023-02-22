@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import BoldIcon from "../assets/type-bold.svg";
-import { EditorContext } from "../shared/Context";
+import { EditorContext } from "../shared/EditorContext";
 
 const BoldTool = (): JSX.Element => {
   const [bold, setBold] = useState(false);

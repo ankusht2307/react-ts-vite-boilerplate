@@ -1,5 +1,5 @@
 import Editor from "./Editor";
-import Context from "./shared/Context";
+import Context from "./shared/EditorContext";
 
 function App(): JSX.Element {
   return (
