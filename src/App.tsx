@@ -1,18 +1,13 @@
-import { createContext, useState } from "react";
 import Editor from "./Editor";
-
-export const EditorContext = createContext({});
+import Context from "./shared/Context";
 
 function App(): JSX.Element {
-  const [editorSettings, setEditorSettings] = useState({
-    currentSelection: "",
-  });
   return (
-    <EditorContext.Provider value={{ editorSettings, setEditorSettings }}>
+    <Context>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Editor />
       </div>
-    </EditorContext.Provider>
+    </Context>
   );
 }
 
