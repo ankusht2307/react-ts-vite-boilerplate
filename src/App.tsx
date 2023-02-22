@@ -1,13 +1,13 @@
 import Editor from "./Editor";
-import Context from "./shared/EditorContext";
+import EditorContext from "./shared/EditorContext";
 
 function App(): JSX.Element {
   return (
-    <Context>
+    <EditorContext>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Editor />
       </div>
-    </Context>
+    </EditorContext>
   );
 }
 
