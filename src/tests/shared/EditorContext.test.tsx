@@ -4,6 +4,6 @@ describe.todo("unimplemented suite");
 
 describe("tests", () => {
   it("test", () => {
-    expect(1).toBe(1);
+    expect(0).toBe(0);
   });
 });
