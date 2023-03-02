@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint .",
+    "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint . --fix && prettier -w .",
     "test": "vitest --coverage -w=false && rm -rf coverage",
     "test:watch": "vitest --coverage && rm -rf coverage",

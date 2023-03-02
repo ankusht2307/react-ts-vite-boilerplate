@@ -13,7 +13,7 @@ export default defineConfig({
     coverage: {
       reporter: ["text"],
     },
-    dir: "./src/tests",
+    dir: "./src/__tests__",
     setupFiles: ["./src/setupTests.ts"],
   },
 });
