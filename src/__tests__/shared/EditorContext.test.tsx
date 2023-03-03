@@ -1,9 +1,11 @@
+import { renderHook } from "@testing-library/react";
+import { useContext } from "react";
 import { describe, it } from "vitest";
-
-describe.todo("unimplemented suite");
+import { EditorContext } from "../../shared/EditorContext";
 
 describe("sets editor context", () => {
   it("set initial value", () => {
-    expect(0).toBe(0);
+    const context = renderHook(useContext(EditorContext) as any);
+    console.log(context);
   });
 });
