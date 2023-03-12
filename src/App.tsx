@@ -1,9 +1,7 @@
+import Editor from "./components/QuillEditor";
+
 function App(): JSX.Element {
-  return (
-    <>
-      <h1>App</h1>
-    </>
-  );
+  return <Editor />;
 }
 
 export default App;
