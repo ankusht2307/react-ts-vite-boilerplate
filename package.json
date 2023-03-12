@@ -1,6 +1,5 @@
 {
-  "name": "sacredcode-editor",
-  "private": true,
+  "name": "react-typescript-quill-editor",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
