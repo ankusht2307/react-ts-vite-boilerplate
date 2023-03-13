@@ -1,7 +1,5 @@
-import Editor from "./components/QuillEditor";
-
 function App(): JSX.Element {
-  return <Editor />;
+  return <h1>React typeScript vite boilerplate</h1>;
 }
 
 export default App;
